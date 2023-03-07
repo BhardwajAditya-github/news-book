@@ -80,7 +80,11 @@
 }
 @media screen and (max-width: 900px) {
     .home-container{flex-direction: column;}
-    .news1,.news2{width: 80%;margin: auto;}
+    .news1,.news2{width: 100%;
+        margin: 10px auto;}
+    .news{margin-bottom: 10px}
+    .navTop-ul{padding-left: 5px;}
     .navTop-ul2{margin-right: 0px;}
     .navTop-li{padding-left: 0px;}
+    img{width: 100%;}
   }
