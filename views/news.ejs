@@ -1,0 +1,10 @@
+<%- include('header') %>
+<%- include('nav') %>
+<div class="news-base">
+    <h1><%= newsData[n].title %></h1>
+    <br>
+    <img src="/route/images/news<%= n %>.jpg">
+    <br><br>
+    <p><%= newsData[n].news %></p>
+</div>
+<%- include('footer') %>

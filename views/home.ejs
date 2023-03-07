@@ -1,0 +1,35 @@
+<%- include('header') %>
+<%- include('nav') %>
+<div class="home-container">
+    <div class="news1">
+        <a href="/news?n=0">
+        <img src='route/images/news0.jpg' alt="news" class="news1-img" />
+        <p class="news1-p"><%= titles[0] %></p></a>
+    </div>
+    <div class="news2">
+        <div class="news">
+            <a href="/news?n=1">
+            <img src='/route/images/news1.jpg' alt="news" class="news-img" />
+            <p class="news-p"><%= titles[1] %></p></a>
+        </div>
+        <div class="news">
+            <a href="/news?n=2">
+            <img src='/route/images/news2.jpg' alt="news" class="news-img" />
+            <p class="news-p"><%= titles[2] %></p></a>
+        </div>
+    </div>
+</div>
+<div class="home-container">
+    <div class="news1">
+        <a href="/news?n=3">
+        <img src='route/images/news3.jpg' alt="news" class="news1-img" />
+        <p class="news1-p"><%= titles[3] %></p></a>
+    </div>
+    <div class="news1">
+        <a href="/news?n=4">
+        <img src='route/images/news4.jpg' alt="news" class="news1-img" />
+        <p class="news1-p"><%= titles[4] %></p></a>
+    </div>
+</div>
+<br>
+<%- include('footer') %>
